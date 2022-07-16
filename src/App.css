@@ -1,0 +1,158 @@
+/*noinspection CssRedundantUnit*/
+.row-header {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/*noinspection CssRedundantUnit*/
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+/*noinspection CssRedundantUnit*/
+.footer {
+    background-color: #f9c784;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+/*noinspection CssRedundantUnit*/
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #fcaf58;
+    color: #ffffff;
+}
+
+/*noinspection CssRedundantUnit*/
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #4e598c;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #ff8c42;
+}
+
+.navbar-dark {
+    background-color: #ff8c42;
+    color: #ffffff;
+
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+
+/* Card Home */
+.home-card {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    margin: 20px 0 20px 0;
+}
+
+/* Footer Links */
+.footer-links li a{
+    color: #4e598c;
+}
+
+/* Global Card Shadows */
+.facts-shadow {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.leader-shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 15px 0 15px;
+}
+
+.menu-card-shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+    margin: 15px;
+
+    text-decoration: none;
+}
+
+.menu-card-shadow a {
+    color: #ff8c42;
+}
+
+.menu-title {
+    background-color: #000;
+    margin: 0 55% 0 0;
+    padding: 7px 0 5px 7px;
+}
+
+.menu-card-shadow:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.fav-menu {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* Breadcrumn CSS */
+.breadcrumb {
+    width: 100%;
+    background-color: #f9c784;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Logged in Username */
+.log-username {
+    font-weight: bold;
+    font-size: large;
+}
+
+.logo-style {
+    color: #4e598c;
+}
+
+.logo-style:hover {
+    background-color: #4e598c;
+}
+
+.leader-img {
+    height: 300px;
+}
+
+.fav-img {
+    height: 150px;
+}

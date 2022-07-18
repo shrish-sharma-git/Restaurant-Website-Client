@@ -18,6 +18,10 @@ import {
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
+const bannerImg = {
+  backgroundImage: 'url(assets/images/test.png)'
+};
+
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -161,11 +165,11 @@ class Header extends Component {
             </Collapse>
           </div>
         </Navbar>
-        <Jumbotron>
+        <Jumbotron style={bannerImg} className="banner-img">
           <div className="container">
-            <div className="row row-header">
-              <div className="col-12 col-sm-6">
-                <h1>Ristorante con Fusion</h1>
+            <div className="row row-header a-center">
+              <div className="col-12 col-sm-6 banner-txt">
+                <h1>EatDish Restaurant</h1>
                 <p>
                   We take inspiration from the World's best cuisines, and create
                   a unique fusion experience. Our lipsmacking creations will
